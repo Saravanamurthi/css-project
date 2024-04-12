@@ -1,0 +1,52 @@
+header,ul,li,h2{
+    background-color:darkviolet;
+    color:aliceblue;
+    display:inline;
+} 
+
+ul{
+    margin-left: 53%;
+}
+
+header{
+    padding: 20px
+}
+li{
+    color:black;
+    cursor:pointer;
+}
+li:hover{
+    color: aliceblue;
+}
+.searchbar{
+    margin: 30px;
+    text-align: center;
+}
+.innerSearch{
+    padding-right: 50%;
+} 
+.imageBox{
+    border-width: 2px;
+    border-style: solid;
+    border-color: black;
+    display: inline-block;
+    width: 200px;
+    justify-content: center;
+}
+.imageSet{
+    text-align: center;
+}
+.imageBox:hover{
+    color:brown;
+    font-style: italic;
+
+}
+.Details{
+    text-align: center;
+    padding:20px
+}
+footer{
+    background-color:darkolivegreen;
+    color:white;
+    text-align:center;
+}
